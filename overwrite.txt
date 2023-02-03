@@ -1,0 +1,3 @@
+.minecraft/mods
+.minecraft/fancymenu_data
+.minecraft/fancymenu_setups
