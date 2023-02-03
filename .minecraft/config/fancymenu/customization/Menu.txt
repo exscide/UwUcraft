@@ -1,0 +1,200 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = end
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 180
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = >
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376310%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 047f116b-12e7-4474-ac2d-2e45fd3e81681675364515342
+  y = 497
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 43eb06c9-a095-47eb-a326-18c59ed375441675364515359
+  y = 227
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 157
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 04aa0f2c-69e6-4ab2-add0-c8f27d3224981675364515359
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = bef43267-4930-4d27-90d1-07740f854a371675364515359
+  y = 0
+  height = 30
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 35921c74-9037-49c8-b470-15fb1b7e591c1675364657111
+  y = 10
+  height = 100
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Homo Shit
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  width = 200
+  actionid = a291ad41-f4b9-45ea-aa0b-169d8ee20e011675369004992
+  action = addbutton
+  y = 48
+  value = https://fual.exsci.de
+  height = 20
+}
+
+customization {
+  path = fancymenu_data/logo.png
+  orientation = top-centered
+  x = -176
+  width = 353
+  action = addtexture
+  actionid = 3ec86cf7-8e1f-4489-9958-fb862552daf61675365924525
+  y = 0
+  height = 100
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  label = Join Survur
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  width = 181
+  actionid = ce46333f-6641-42a6-940c-cf5a256011151675379502999
+  action = addbutton
+  y = 24
+  value = exsci.de
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = UwUcraft {"placeholder":"mcversion"}-{"placeholder":"randomtext","values":{"path":"version.txt","interval":"0"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 211
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 01247702-0777-4a02-9ef6-2671826778251675380260840
+  y = -10
+  alignment = left
+  height = 8
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"randomtext","values":{"path":"quotes.txt","interval":"10"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -423
+  width = 421
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 3955b8af-bed5-4bfc-9678-98c3bbc7f08e1675380479940
+  y = -10
+  alignment = right
+  height = 8
+}
+
