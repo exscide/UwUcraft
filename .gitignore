@@ -8,8 +8,15 @@ natives/
 .minecraft/patchouli_data.json
 .minecraft/polymer-resourcepack.zip
 
+# ignore all config files
 .minecraft/config/*
-.minecraft/config/fancymenu
-.minecraft/config/quickshulkerconfig.json5
-.minecraft/config/ringsofascension.json
-.minecraft/config/universal-graves.json
+# but not subdirs
+!.minecraft/config/*/
+# but all configs in subdirs
+.minecraft/config/*/*
+
+!.minecraft/config/bclib/client.json
+!.minecraft/config/fancymenu
+!.minecraft/config/quickshulkerconfig.json5
+!.minecraft/config/ringsofascension.json
+!.minecraft/config/universal-graves.json
