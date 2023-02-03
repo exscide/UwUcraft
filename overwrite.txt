@@ -1,4 +1,5 @@
 .minecraft/config/fancymenu
+.minecraft/config/betterf3.json
 .minecraft/config/quickshulkerconfig.json5
 .minecraft/config/ringsofascension.json
 .minecraft/config/universal-graves.json
