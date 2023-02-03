@@ -1,0 +1,15 @@
+natives/
+
+.minecraft/.fabric
+.minecraft/data
+.minecraft/logs
+.minecraft/ModTranslations
+.minecraft/irisUpdateInfo.json
+.minecraft/patchouli_data.json
+.minecraft/polymer-resourcepack.zip
+
+.minecraft/config/*
+.minecraft/config/fancymenu
+.minecraft/config/quickshulkerconfig.json5
+.minecraft/config/ringsofascension.json
+.minecraft/config/universal-graves.json
