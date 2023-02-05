@@ -16,6 +16,7 @@ natives/
 .minecraft/config/*/*
 
 !.minecraft/config/bclib/*
+!.minecraft/config/betternether/biomes.json
 !.minecraft/config/fancymenu
 !.minecraft/config/betterf3.json
 !.minecraft/config/quickshulkerconfig.json5
