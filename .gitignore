@@ -15,7 +15,7 @@ natives/
 # but all configs in subdirs
 .minecraft/config/*/*
 
-!.minecraft/config/bclib/client.json
+!.minecraft/config/bclib/*
 !.minecraft/config/fancymenu
 !.minecraft/config/betterf3.json
 !.minecraft/config/quickshulkerconfig.json5
